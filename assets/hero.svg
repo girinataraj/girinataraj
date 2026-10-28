@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
+<title id="title">Giri Nataraj / From interface to infrastructure</title><desc id="desc">Full-stack development, applied AI, product thinking. Original animated engineering diagram. Motion finishes after eight seconds.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+<clipPath id="frame"><rect width="1200" height="510" rx="20"/></clipPath></defs>
+<g clip-path="url(#frame)" font-family="Arial, Helvetica, sans-serif">
+<style>
+.orbit{transform-origin:961px 243px;animation:orbit 8s ease-in-out 1}
+.signal{animation:signal 2s ease-in-out 4}
+@keyframes orbit{from{transform:rotate(-80deg)}to{transform:rotate(0deg)}}
+@keyframes signal{0%,100%{opacity:1}50%{opacity:.3}}
+@media(prefers-reduced-motion:reduce){.orbit,.signal{animation:none}}
+</style>
+<rect width="1200" height="510" fill="#111314"/>
+<rect width="1200" height="510" fill="url(#grid)"/>
+<path d="M52 107H1148M52 448H1148" stroke="#343638"/>
+<rect x="52" y="43" width="43" height="38" rx="5" fill="#ff7448"/>
+<text x="60" y="69" font-size="22" font-weight="700" fill="#111314">GN</text>
+<text x="112" y="68" font-size="18" letter-spacing="3" fill="#e8e4db">ENGINEERING &amp; INTERFACES</text>
+<text x="1148" y="68" text-anchor="end" font-family="Consolas,monospace" font-size="16" letter-spacing="2" fill="#a5aaa7">PERSONAL LAB / 01</text>
+<text x="50" y="225" font-size="89" letter-spacing="-5" font-weight="800" fill="#f3eee4">GIRI NATARAJ.</text>
+<text x="52" y="310" font-size="57" letter-spacing="-2" fill="#f3eee4">From interface</text>
+<text x="52" y="377" font-size="57" letter-spacing="-2" fill="#ff8b64">to infrastructure.</text>
+<g fill="none" stroke="#414748">
+<circle cx="961" cy="243" r="151"/><circle cx="961" cy="243" r="108"/>
+<path d="M770 243H1152M961 52V434" stroke-dasharray="4 10"/>
+<path d="M854 136L1068 350M854 350L1068 136" stroke-opacity=".45"/>
+</g>
+<g class="orbit" fill="none"><circle cx="961" cy="243" r="151" stroke="#ff7448" stroke-width="3" stroke-dasharray="132 818" transform="rotate(-55 961 243)"/>
+<circle cx="961" cy="243" r="108" stroke="#b4bdb0" stroke-width="2" stroke-dasharray="100 580" transform="rotate(100 961 243)"/></g>
+<rect x="901" y="183" width="120" height="120" rx="20" fill="#1b1e1f" stroke="#545955"/>
+<path d="M938 220L917 243L938 266M984 220L1005 243L984 266M971 213L951 273" fill="none" stroke="#ff8b64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="signal" cx="810" cy="243" r="6" fill="#ff7448"/><circle cx="1112" cy="243" r="5" fill="#b4bdb0"/>
+<text x="961" y="419" text-anchor="middle" font-family="Consolas,monospace" fill="#a5aaa7" font-size="16" letter-spacing="2">UI / DATA / AI</text>
+<text x="52" y="483" font-size="18" letter-spacing="2" fill="#c8ccc5">FULL-STACK DEVELOPMENT</text>
+<text x="506" y="483" font-size="18" letter-spacing="2" fill="#c8ccc5">APPLIED AI</text>
+<text x="1148" y="483" text-anchor="end" font-size="18" letter-spacing="2" fill="#c8ccc5">PRODUCT THINKING</text>
+</g></svg>

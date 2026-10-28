@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Sacred Commerce / A quieter kind of commerce</title><desc id="desc">Original editorial artwork for an independent fictional storefront and product ownership case study.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+<clipPath id="frame"><rect width="1200" height="360" rx="20"/></clipPath></defs>
+<g clip-path="url(#frame)" font-family="Arial, Helvetica, sans-serif">
+<rect width="1200" height="360" fill="#ede7db"/>
+<text x="44" y="49" font-size="17" letter-spacing="3" fill="#6d655a">03 / SACRED COMMERCE</text>
+<text x="42" y="143" font-size="63" font-weight="500" letter-spacing="-2" font-family="Georgia,serif" fill="#263a32">A quieter kind</text>
+<text x="42" y="213" font-size="63" font-weight="500" letter-spacing="-2" font-family="Georgia,serif" fill="#263a32">of commerce.</text>
+<path d="M44 271H625" stroke="#bcb5a8"/>
+<text x="44" y="317" font-size="19" letter-spacing="2" fill="#655e53">EDITORIAL DESIGN / PRODUCT DECISIONS</text>
+<path d="M817 360V178A134 134 0 0 1 1085 178V360" fill="#d6ba9f"/>
+<path d="M849 360V182A102 102 0 0 1 1053 182V360" fill="#e5d2b9"/>
+<ellipse cx="955" cy="325" rx="91" ry="12" fill="#be9f80" opacity=".4"/>
+<path d="M934 237H978L1001 314Q957 338 911 314Z" fill="#a96143"/>
+<ellipse cx="956" cy="237" rx="22" ry="6" fill="#824b35"/>
+<path d="M956 239Q938 177 965 109M955 204Q1000 174 1012 140M953 186Q917 162 906 126" fill="none" stroke="#4a614b" stroke-width="3"/>
+<path d="M964 123Q925 85 972 61Q992 100 964 123M980 183Q983 136 1028 128Q1023 176 980 183M931 174Q887 173 882 127Q926 133 931 174" fill="#687955"/>
+<circle cx="1135" cy="68" r="22" fill="none" stroke="#b18b68"/>
+<path d="M1113 68H1157M1135 46V90" stroke="#b18b68"/></g></svg>

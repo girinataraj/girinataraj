@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">QueueLess Pulse / Less waiting. More moving.</title><desc id="desc">Original concept diagram for four connected queue experiences. Customer, staff, owner and reception.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+<clipPath id="frame"><rect width="1200" height="360" rx="20"/></clipPath></defs>
+<g clip-path="url(#frame)" font-family="Arial, Helvetica, sans-serif">
+<rect width="1200" height="360" fill="#14191a"/><rect width="1200" height="360" fill="url(#grid)"/>
+<text x="44" y="49" font-size="17" letter-spacing="3" fill="#9ac3ba">01 / QUEUELESS PULSE</text>
+<text x="42" y="143" font-size="65" font-weight="700" letter-spacing="-2" fill="#f3eee4">Less waiting.</text>
+<text x="42" y="215" font-size="65" font-weight="700" letter-spacing="-2" fill="#b6d9ce">More moving.</text>
+<path d="M44 271H593" stroke="#3c4543"/>
+<text x="44" y="317" font-size="19" letter-spacing="2" fill="#aebeb8">CUSTOMER / STAFF / OWNER / RECEPTION</text>
+<path d="M656 180H1147" stroke="#3e5951" stroke-dasharray="6 8"/>
+<g transform="translate(695 81)">
+<rect width="126" height="178" rx="14" fill="#1e2c29" stroke="#5e8579"/>
+<text x="63" y="42" text-anchor="middle" fill="#b6d9ce" font-size="15" letter-spacing="2">SERVING</text>
+<text x="63" y="106" text-anchor="middle" fill="#f3eee4" font-size="45" font-weight="700">024</text>
+<path d="M20 132H106" stroke="#5e8579"/><circle cx="63" cy="153" r="5" fill="#a4d2bd"/>
+</g>
+<g transform="translate(850 103)">
+<rect width="126" height="178" rx="14" fill="#1b2222" stroke="#465552"/>
+<text x="63" y="42" text-anchor="middle" fill="#9fb0aa" font-size="15" letter-spacing="2">UP NEXT</text>
+<text x="63" y="106" text-anchor="middle" fill="#d2dcd6" font-size="45" font-weight="700">025</text>
+<path d="M20 132H106" stroke="#465552"/>
+</g>
+<g transform="translate(1005 125)">
+<rect width="126" height="178" rx="14" fill="#191e1f" stroke="#35413f"/>
+<text x="63" y="42" text-anchor="middle" fill="#9ca7a3" font-size="15" letter-spacing="2">WAITING</text>
+<text x="63" y="106" text-anchor="middle" fill="#afbbb5" font-size="45" font-weight="700">026</text>
+<path d="M20 132H106" stroke="#35413f"/>
+</g></g></svg>
