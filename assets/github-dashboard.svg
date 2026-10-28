@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc"><style>
+@keyframes trace{to{stroke-dashoffset:-1200}}
+@keyframes breathe{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes fillbar{0%,8%{transform:scaleX(.15)}55%,92%{transform:scaleX(1)}100%{transform:scaleX(.15)}}
+.moving-rule{stroke-dasharray:180 1020;animation:trace 7s linear infinite}
+.activity-dot{animation:breathe 3s ease-in-out infinite}
+.telemetry-bar{transform-box:fill-box;transform-origin:left;animation:fillbar 8s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.moving-rule,.activity-dot,.telemetry-bar{animation:none}}
+</style>
+<title id="title">GitHub engineering telemetry</title><desc id="desc">23 original public repository entries; 51 active day entries in the last 365 days. Bars count original project repositories by their primary language, not proficiency.</desc>
+<rect width="1200" height="360" rx="20" fill="#0b1624" stroke="#25415a"/>
+<g font-family="Consolas, Liberation Mono, monospace">
+<text x="36" y="46" fill="#67e8ee" font-size="17" letter-spacing="3">ENGINEERING TELEMETRY</text>
+<text x="1160" y="46" fill="#99adc3" font-size="16" text-anchor="end">CHECKED / 2026-10-28 UTC</text>
+<rect x="35" y="80" width="275" height="211" rx="14" fill="#102235" stroke="#29465c"/>
+<rect x="329" y="80" width="275" height="211" rx="14" fill="#102235" stroke="#29465c"/>
+<text x="59" y="170" fill="#e6f7ff" font-size="70" font-weight="700">23</text>
+<text x="59" y="218" fill="#8eb2d0" font-size="20">ORIGINAL PUBLIC</text><text x="59" y="246" fill="#8eb2d0" font-size="20">PROJECT REPOS</text>
+<text x="353" y="170" fill="#67e8ee" font-size="70" font-weight="700">51</text>
+<text x="353" y="218" fill="#8eb2d0" font-size="20">ACTIVE DAYS</text><text x="353" y="246" fill="#8eb2d0" font-size="20">PAST 365 DAYS</text>
+<text x="680" y="87" fill="#8eb2d0" font-size="17">REPOS BY PRIMARY LANGUAGE</text><text x="680" y="130" fill="#d9e5f0" font-size="20">TypeScript</text><rect x="820" y="114" width="280" height="12" rx="6" fill="#1b2a3d"/><rect class="telemetry-bar" x="820" y="114" width="280.0" height="12" rx="6" fill="#65e7e6"/><text x="1145" y="130" fill="#b4c6d7" font-size="20" text-anchor="end">10</text><text x="680" y="180" fill="#d9e5f0" font-size="20">Python</text><rect x="820" y="164" width="280" height="12" rx="6" fill="#1b2a3d"/><rect class="telemetry-bar" x="820" y="164" width="84.0" height="12" rx="6" fill="#64aaff"/><text x="1145" y="180" fill="#b4c6d7" font-size="20" text-anchor="end">3</text><text x="680" y="230" fill="#d9e5f0" font-size="20">JavaScript</text><rect x="820" y="214" width="280" height="12" rx="6" fill="#1b2a3d"/><rect class="telemetry-bar" x="820" y="214" width="84.0" height="12" rx="6" fill="#b3a0f4"/><text x="1145" y="230" fill="#b4c6d7" font-size="20" text-anchor="end">3</text><text x="680" y="280" fill="#d9e5f0" font-size="20">CSS</text><rect x="820" y="264" width="280" height="12" rx="6" fill="#1b2a3d"/><rect class="telemetry-bar" x="820" y="264" width="56.0" height="12" rx="6" fill="#f0b17b"/><text x="1145" y="280" fill="#b4c6d7" font-size="20" text-anchor="end">2</text>
+<text x="36" y="331" fill="#90a8bc" font-size="16">GitHub public metadata + public profile calendar / forks, archives and profile repo excluded from project counts</text>
+</g><path class="moving-rule" d="M0 2H1200" stroke="#67e8ee" stroke-width="3"/></svg>

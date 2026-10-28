@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="94" viewBox="0 0 1200 94" role="img" aria-labelledby="title desc"><title id="title">THE DEVELOPER</title><desc id="desc">Original profile artwork for Giri Nataraj.</desc><defs><linearGradient id="edge"><stop stop-color="#50e5ed"/><stop offset=".55" stop-color="#4c8bef"/><stop offset="1" stop-color="#a89ddd"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#5dd8fa" stroke-opacity=".045"/></pattern><clipPath id="frame"><rect width="1200" height="94" rx="18"/></clipPath></defs><style>
+@keyframes trace{to{stroke-dashoffset:-360}}
+@keyframes breathe{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes sweep{0%{transform:translateX(-220px)}100%{transform:translateX(1400px)}}
+@keyframes hue{0%,100%{fill:#12283e}50%{fill:#23435c}}
+.trace{stroke-dasharray:100 260;animation:trace 5s linear infinite}
+.pulse{animation:breathe 3s ease-in-out infinite}
+.float{animation:float 4s ease-in-out infinite}
+.sweep{animation:sweep 6s linear infinite}
+@media(prefers-reduced-motion:reduce){.trace,.pulse,.float,.sweep{animation:none}}
+</style><g clip-path="url(#frame)" font-family="Arial,Helvetica,sans-serif"><path d="M0 43H1200" stroke="#24394d"/>
+<rect x="0" y="16" width="53" height="53" rx="12" fill="#102536" stroke="#39738a"/>
+<text x="26" y="50" font-size="22" text-anchor="middle" fill="#71edf1" font-family="Consolas,monospace">01</text>
+<rect x="77" y="22" width="245" height="42" rx="5" fill="#0d1724"/>
+<text x="91" y="50" fill="#d4f4ff" font-size="26" font-weight="700" letter-spacing="3">THE DEVELOPER</text>
+<text x="1198" y="78" text-anchor="end" fill="#87a4bc" font-size="16" font-family="Consolas,monospace">identity / focus / approach</text>
+<circle cx="1135" cy="43" r="4" fill="#67e8ee"/><path d="M1155 38L1160 43L1155 48L1150 43Z" fill="none" stroke="#b4a4f1"/></g><path class="trace" d="M20 2H1180" fill="none" stroke="#67e8ee" stroke-width="3"/><path class="sweep" d="M0 92H170" stroke="#66afff" stroke-width="2"/><circle class="pulse" cx="1174" cy="22" r="4" fill="#67e8ee"/><path d="M84 43H1120" stroke="#64ebf0" stroke-width="1.7" stroke-dasharray="30 1000"><animate attributeName="stroke-dashoffset" from="1030" to="-1030" dur="7s" repeatCount="indefinite"/></path></svg>

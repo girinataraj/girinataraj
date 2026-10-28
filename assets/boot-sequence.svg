@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="108" viewBox="0 0 1200 108" role="img" aria-labelledby="title desc"><title id="title">Interface to service to data to intelligence: full-stack and applied AI</title><desc id="desc">Original profile artwork for Giri Nataraj.</desc><defs><linearGradient id="edge"><stop stop-color="#50e5ed"/><stop offset=".55" stop-color="#4c8bef"/><stop offset="1" stop-color="#a89ddd"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#5dd8fa" stroke-opacity=".045"/></pattern><clipPath id="frame"><rect width="1200" height="108" rx="18"/></clipPath></defs><g clip-path="url(#frame)" font-family="Arial,Helvetica,sans-serif">
+<style>.packet{animation:move 6s linear infinite}.light{animation:blink 3s ease-in-out infinite}@keyframes move{0%{transform:translateX(-120px)}100%{transform:translateX(1200px)}}@keyframes blink{50%{opacity:.3}}@media(prefers-reduced-motion:reduce){.packet,.light{animation:none}}</style>
+<rect width="1200" height="108" rx="16" fill="#0b1725" stroke="#27455e"/>
+<path d="M24 75H1176" stroke="#24465e"/><path class="packet" d="M0 75H80" stroke="#62f0ef" stroke-width="2"/>
+<g fill="#cee4f4" font-family="Consolas,monospace" font-size="24" letter-spacing="2">
+<text x="43" y="49">INTERFACE</text><text x="366" y="49">SERVICE</text><text x="668" y="49">DATA</text><text x="910" y="49">INTELLIGENCE</text></g>
+<g stroke="#497089" fill="none"><path d="M278 35L289 44L278 53M577 35L588 44L577 53M821 35L832 44L821 53"/></g>
+<g fill="#63e6e9"><circle class="light" cx="43" cy="75" r="4"/><circle cx="366" cy="75" r="4"/><circle cx="668" cy="75" r="4"/><circle cx="910" cy="75" r="4"/></g></g></svg>
