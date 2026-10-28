@@ -39,12 +39,12 @@ const giri = {
 
 <img src="./assets/section-02.svg" width="100%" alt="02 — Tech arsenal" />
 
-| Layer | Tools I work with | Where they show up |
-| :--- | :--- | :--- |
-| **Interface** | <img src="./assets/icons/react.svg" width="36" height="36" alt="react" /> &nbsp; <img src="./assets/icons/nextjs.svg" width="36" height="36" alt="nextjs" /> &nbsp; <img src="./assets/icons/typescript.svg" width="36" height="36" alt="typescript" /> &nbsp; <img src="./assets/icons/tailwindcss.svg" width="36" height="36" alt="tailwindcss" /><br><sub>React · Next.js · TypeScript · Tailwind CSS</sub> | Interactive products, dashboards, responsive UI |
-| **Services** | <img src="./assets/icons/python.svg" width="36" height="36" alt="python" /> &nbsp; <img src="./assets/icons/nodejs.svg" width="36" height="36" alt="nodejs" /> &nbsp; <img src="./assets/icons/csharp.svg" width="36" height="36" alt="csharp" /> &nbsp; <img src="./assets/icons/dotnetcore.svg" width="36" height="36" alt="dotnetcore" /><br><sub>Python · Node.js · C# · .NET</sub> | APIs, application logic, integrations |
-| **Data** | <img src="./assets/icons/postgresql.svg" width="36" height="36" alt="postgresql" /> &nbsp; <img src="./assets/icons/mongodb.svg" width="36" height="36" alt="mongodb" /> &nbsp; <img src="./assets/icons/sqlite.svg" width="36" height="36" alt="sqlite" /> &nbsp; <img src="./assets/icons/prisma.svg" width="36" height="36" alt="prisma" /><br><sub>PostgreSQL · MongoDB · SQLite · Prisma</sub> | Persistence, access boundaries, data models |
-| **Build & verify** | <img src="./assets/icons/git.svg" width="36" height="36" alt="git" /> &nbsp; <img src="./assets/icons/docker.svg" width="36" height="36" alt="docker" /> &nbsp; <img src="./assets/icons/vitest.svg" width="36" height="36" alt="vitest" /> &nbsp; <img src="./assets/icons/playwright.svg" width="36" height="36" alt="playwright" /><br><sub>Git · Docker · Vitest · Playwright</sub> | Version control, repeatable setup, automated checks |
+| Layer | Tools I work with |
+| :--- | :--- |
+| **Interface** | <img src="./assets/icons/react.svg" width="36" height="36" alt="react" /> &nbsp; <img src="./assets/icons/nextjs.svg" width="36" height="36" alt="nextjs" /> &nbsp; <img src="./assets/icons/typescript.svg" width="36" height="36" alt="typescript" /> &nbsp; <img src="./assets/icons/tailwindcss.svg" width="36" height="36" alt="tailwindcss" /><br><sub>React · Next.js · TypeScript · Tailwind CSS</sub> |
+| **Services** | <img src="./assets/icons/python.svg" width="36" height="36" alt="python" /> &nbsp; <img src="./assets/icons/nodejs.svg" width="36" height="36" alt="nodejs" /> &nbsp; <img src="./assets/icons/csharp.svg" width="36" height="36" alt="csharp" /> &nbsp; <img src="./assets/icons/dotnetcore.svg" width="36" height="36" alt="dotnetcore" /><br><sub>Python · Node.js · C# · .NET</sub> |
+| **Data** | <img src="./assets/icons/postgresql.svg" width="36" height="36" alt="postgresql" /> &nbsp; <img src="./assets/icons/mongodb.svg" width="36" height="36" alt="mongodb" /> &nbsp; <img src="./assets/icons/sqlite.svg" width="36" height="36" alt="sqlite" /> &nbsp; <img src="./assets/icons/prisma.svg" width="36" height="36" alt="prisma" /><br><sub>PostgreSQL · MongoDB · SQLite · Prisma</sub> |
+| **Build & verify** | <img src="./assets/icons/git.svg" width="36" height="36" alt="git" /> &nbsp; <img src="./assets/icons/docker.svg" width="36" height="36" alt="docker" /> &nbsp; <img src="./assets/icons/vitest.svg" width="36" height="36" alt="vitest" /> &nbsp; <img src="./assets/icons/playwright.svg" width="36" height="36" alt="playwright" /><br><sub>Git · Docker · Vitest · Playwright</sub> |
 
 <br>
 
