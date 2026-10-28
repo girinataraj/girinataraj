@@ -12,6 +12,24 @@ OWNER = 'girinataraj'
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def with_motion(svg, kind):
+    """Keep motion in every generated snapshot without changing source data."""
+    style = '''<style>
+@keyframes trace{to{stroke-dashoffset:-1200}}
+@keyframes breathe{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes fillbar{0%,8%{transform:scaleX(.15)}55%,92%{transform:scaleX(1)}100%{transform:scaleX(.15)}}
+.moving-rule{stroke-dasharray:180 1020;animation:trace 7s linear infinite}
+.activity-dot{animation:breathe 3s ease-in-out infinite}
+.telemetry-bar{transform-box:fill-box;transform-origin:left;animation:fillbar 8s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.moving-rule,.activity-dot,.telemetry-bar{animation:none}}
+</style>'''
+    extras = '<path class="moving-rule" d="M0 2H1200" stroke="#67e8ee" stroke-width="3"/>'
+    if kind == 'calendar':
+        extras += '''<path d="M48 71V222" stroke="#b2ffff" stroke-opacity=".65" stroke-width="2"><animateTransform attributeName="transform" type="translate" from="0 0" to="1075 0" dur="12s" repeatCount="indefinite"/></path>'''
+    svg = svg.replace('>', '>' + style, 1)
+    return svg.replace('</svg>', extras + '</svg>')
+
+
 def fetch_repositories():
     records = []
     # This endpoint returns public repositories only, even when authenticated.
@@ -45,12 +63,12 @@ def render_card(records, checked):
         label = name if len(name) <= 39 else name[:36] + '...'
         day = datetime.fromisoformat(repo['pushed_at'].replace('Z', '+00:00')).date().isoformat()
         rows.append(f'''<path d="M42 {y+25}H1158" stroke="#292b2c"/>
-<circle cx="49" cy="{y-8}" r="4" fill="#4de0e6"/>
+<circle class="activity-dot" cx="49" cy="{y-8}" r="4" fill="#4de0e6"/>
 <text x="70" y="{y}" fill="#f3eee4" font-size="27">{escape(label)}</text>
 <text x="1156" y="{y}" fill="#acb1ac" font-size="21" text-anchor="end">{day}</text>''')
     if not rows:
         rows.append('<text x="42" y="160" fill="#c9cbc5" font-size="26">No public project pushes to show yet.</text>')
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+    return with_motion(f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
 <title id="title">From the workshop: latest public project pushes</title>
 <desc id="desc">Public, original, non-archived repositories. Dates are last code pushes in UTC. Checked {escape(checked)}.</desc>
 <rect width="1200" height="380" rx="20" fill="#0b1624"/>
@@ -61,7 +79,7 @@ def render_card(records, checked):
 {''.join(rows)}
 <text x="42" y="350" fill="#acb1ac" font-size="17">GitHub public repository data / checked {escape(checked)}</text>
 </g></svg>
-'''
+''', 'activity')
 
 
 def update(path, fetch=fetch_repositories):
@@ -133,9 +151,9 @@ def render_dashboard(records, days, checked):
         y = 130 + i * 50
         bars.append(f'<text x="680" y="{y}" fill="#d9e5f0" font-size="20">{escape(language)}</text>'
                     f'<rect x="820" y="{y-16}" width="280" height="12" rx="6" fill="#1b2a3d"/>'
-                    f'<rect x="820" y="{y-16}" width="{280*count/maximum:.1f}" height="12" rx="6" fill="{colors[i]}"/>'
+                    f'<rect class="telemetry-bar" x="820" y="{y-16}" width="{280*count/maximum:.1f}" height="12" rx="6" fill="{colors[i]}"/>'
                     f'<text x="1145" y="{y}" fill="#b4c6d7" font-size="20" text-anchor="end">{count}</text>')
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+    return with_motion(f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
 <title id="title">GitHub engineering telemetry</title><desc id="desc">{len(original)} original public repository entries; {active} active day entries in the last 365 days. Bars count original project repositories by their primary language, not proficiency.</desc>
 <rect width="1200" height="360" rx="20" fill="#0b1624" stroke="#25415a"/>
 <g font-family="Consolas, Liberation Mono, monospace">
@@ -149,7 +167,7 @@ def render_dashboard(records, days, checked):
 <text x="353" y="218" fill="#8eb2d0" font-size="20">ACTIVE DAYS</text><text x="353" y="246" fill="#8eb2d0" font-size="20">PAST 365 DAYS</text>
 <text x="680" y="87" fill="#8eb2d0" font-size="17">REPOS BY PRIMARY LANGUAGE</text>{''.join(bars)}
 <text x="36" y="331" fill="#90a8bc" font-size="16">GitHub public metadata + public profile calendar / forks, archives and profile repo excluded from project counts</text>
-</g></svg>'''
+</g></svg>''', 'telemetry')
 
 
 def render_contributions(days, checked):
@@ -165,7 +183,7 @@ def render_contributions(days, checked):
         x, y = 58 + (offset//7)*20, 79 + (offset % 7)*20
         cells.append(f'<rect x="{x}" y="{y}" width="15" height="15" rx="3" fill="{colors[level]}"><title>{day}: GitHub intensity {level} of 4</title></rect>')
     active = sum(level > 0 for _, level in days)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+    return with_motion(f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
 <title id="title">The commit trail: GitHub profile activity</title><desc id="desc">{active} active days in the past 365 days. Actual public GitHub profile contribution intensity, not a synthetic pattern.</desc>
 <rect width="1200" height="270" rx="20" fill="#08131f" stroke="#25415a"/>
 <g font-family="Consolas, Liberation Mono, monospace"><text x="35" y="43" font-size="18" letter-spacing="3" fill="#67e8ee">THE COMMIT TRAIL</text>
@@ -174,7 +192,7 @@ def render_contributions(days, checked):
 <text x="35" y="246" font-size="16" fill="#90a8bc">PUBLIC PROFILE CALENDAR / {days[0][0]} → {days[-1][0]}</text>
 <text x="905" y="246" fill="#90a8bc" font-size="15">LESS</text>
 {''.join(f'<rect x="{955+i*22}" y="232" width="15" height="15" rx="3" fill="{color}"/>' for i,color in enumerate(colors))}
-<text x="1080" y="246" fill="#90a8bc" font-size="15">MORE</text></g></svg>'''
+<text x="1080" y="246" fill="#90a8bc" font-size="15">MORE</text></g></svg>''', 'calendar')
 
 
 def update_workshop(directory, fetch_repos=fetch_repositories, fetch_days=fetch_calendar):

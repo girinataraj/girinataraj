@@ -37,10 +37,10 @@ Both www.girinataraj.tech and girinataraj.tech failed DNS checks. The main link 
 - Calendar HTML is an undocumented GitHub presentation surface. Missing/incomplete/invalid markup fails the job and preserves the previous visuals. All fetches and rendering finish before files are replaced.
 - The refresh workflow stages only these three generated SVGs. Repository rules may block bot pushes; no rule is bypassed.
 - Uses Python's standard library and the automatic Actions token. No personal token or paid service is required. Calendar requests send no authorization or cookies.
-- Pull-request checks run nine behavior tests and parse all SVG assets. Tests cover filtering, escaping, calendar validation, a contiguous complete 365-day window and preservation on source failure.
+- Pull-request checks run eleven tests and parse all SVG assets. Tests cover filtering, escaping, calendar completeness, source-failure preservation, animation coverage and actual encoded GIF frame durations.
 
 ## Visual maintenance
 
-The hero is an original fictional illustrated developer mascot, not an identity-matched portrait. Provenance and the generation prompt are in `ASSETS.md`. The signal ribbon runs for eighteen seconds and respects reduced-motion preferences. Technology logos are stored locally with the Devicon license.
+The hero is an original fictional illustrated developer mascot, not an identity-matched portrait. Its displayed version is now a continuously looping 48-frame GIF with portrait parallax, holographic HUD motion, particles and typing titles. All displayed visual assets animate; native prose and table content stay readable. See `MOTION.md` for the complete motion inventory and verification. Provenance and the original generation prompt are in `ASSETS.md`. Technology logos are local animated SVG wrappers retaining Devicon's original paths and license.
 
-Edit `README.md` for content. Custom graphics are SVG except the hero PNG. The local HTML preview approximates GitHub; inspect the branch README before merge. No arbitrary scripts/styles are required inside the README, and no repositories are renamed, archived or deleted.
+Edit `README.md` for content. Displayed graphics are animated SVGs and GIFs; the original hero PNG remains an authoring source only. The local HTML preview approximates GitHub; inspect the branch README before merge. No arbitrary scripts/styles are required inside the README, and no repositories are renamed, archived or deleted.

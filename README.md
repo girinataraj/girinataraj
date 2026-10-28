@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="./assets/hero-cinematic.png" width="100%" alt="Giri Nataraj — full-stack development and applied AI. Cinematic illustrated developer mascot with a holographic engineering workspace." />
-  <img src="./assets/boot-sequence.svg" width="100%" alt="From interface to service to data to intelligence." />
+  <img src="./assets/hero-motion.gif" width="100%" alt="Giri Nataraj — continuously animated engineering workspace, holographic HUD, particles and typing role titles." />
+  <img src="./assets/boot-sequence.svg?motion=3" width="100%" alt="From interface to service to data to intelligence." />
 </p>
 
 <p align="center">
-  <a href="#selected-work"><img src="./assets/nav-work.svg" width="150" height="28" alt="Explore builds" /></a>&nbsp;
-  <a href="https://github.com/girinataraj"><img src="./assets/nav-github.svg" width="150" height="28" alt="GitHub" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/giri765/"><img src="./assets/nav-linkedin.svg" width="150" height="28" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:girinataraj765@gmail.com"><img src="./assets/nav-email.svg" width="150" height="28" alt="Email Giri" /></a>
+  <a href="#selected-work"><img src="./assets/nav-work.svg?motion=3" width="150" height="28" alt="Explore builds" /></a>&nbsp;
+  <a href="https://github.com/girinataraj"><img src="./assets/nav-github.svg?motion=3" width="150" height="28" alt="GitHub" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/giri765/"><img src="./assets/nav-linkedin.svg?motion=3" width="150" height="28" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:girinataraj765@gmail.com"><img src="./assets/nav-email.svg?motion=3" width="150" height="28" alt="Email Giri" /></a>
 </p>
 
 <h3 align="center">I build the interface. Then I build what it runs on.</h3>
@@ -15,46 +15,36 @@
 
 <br>
 
-<img src="./assets/section-01.svg" width="100%" alt="01 — The developer" />
+<img src="./assets/section-01.svg?motion=3" width="100%" alt="01 — The developer" />
 
 I’m **Giri Nataraj**, an Information Technology student and developer from **Erode, India**. I’m interested in the whole path from a useful interface to the services, data, and decisions behind it.
 
 My current work spans **business queue systems**, **RAG and MCP-based assistants**, and **thoughtfully designed web products**.
 
-```typescript
-const giri = {
-  location: "Erode, India",
-  education: "B.Tech · Information Technology · 2023–2027",
-  institution: "Nandha Engineering College",
-  focus: ["Full-stack products", "Backend systems", "Applied AI"],
-  languages: ["TypeScript", "JavaScript", "Python", "C#"],
-  building: ["QueueLess Pulse", "AI assistants", "Commerce experiences"],
-  approach: "Understand the problem. Follow the data. Build the experience."
-};
-```
+<img src="./assets/developer-console.svg?motion=3" width="100%" alt="Animated developer dossier: Erode, India; B.Tech Information Technology at Nandha Engineering College, 2023–2027; TypeScript, Python, C#; full-stack, systems and applied AI." />
 
-<img src="./assets/capabilities.svg" width="100%" alt="Four areas: interfaces, backend systems, applied AI, and product thinking." />
+<img src="./assets/capabilities.svg?motion=3" width="100%" alt="Four areas: interfaces, backend systems, applied AI, and product thinking." />
 
 <br>
 
-<img src="./assets/section-02.svg" width="100%" alt="02 — Tech arsenal" />
+<img src="./assets/section-02.svg?motion=3" width="100%" alt="02 — Tech arsenal" />
 
 | Layer | Tools I work with |
 | :--- | :--- |
-| **Interface** | <img src="./assets/icons/react.svg" width="36" height="36" alt="react" /> &nbsp; <img src="./assets/icons/nextjs.svg" width="36" height="36" alt="nextjs" /> &nbsp; <img src="./assets/icons/typescript.svg" width="36" height="36" alt="typescript" /> &nbsp; <img src="./assets/icons/tailwindcss.svg" width="36" height="36" alt="tailwindcss" /><br><sub>React · Next.js · TypeScript · Tailwind CSS</sub> |
-| **Services** | <img src="./assets/icons/python.svg" width="36" height="36" alt="python" /> &nbsp; <img src="./assets/icons/nodejs.svg" width="36" height="36" alt="nodejs" /> &nbsp; <img src="./assets/icons/csharp.svg" width="36" height="36" alt="csharp" /> &nbsp; <img src="./assets/icons/dotnetcore.svg" width="36" height="36" alt="dotnetcore" /><br><sub>Python · Node.js · C# · .NET</sub> |
-| **Data** | <img src="./assets/icons/postgresql.svg" width="36" height="36" alt="postgresql" /> &nbsp; <img src="./assets/icons/mongodb.svg" width="36" height="36" alt="mongodb" /> &nbsp; <img src="./assets/icons/sqlite.svg" width="36" height="36" alt="sqlite" /> &nbsp; <img src="./assets/icons/prisma.svg" width="36" height="36" alt="prisma" /><br><sub>PostgreSQL · MongoDB · SQLite · Prisma</sub> |
-| **Build & verify** | <img src="./assets/icons/git.svg" width="36" height="36" alt="git" /> &nbsp; <img src="./assets/icons/docker.svg" width="36" height="36" alt="docker" /> &nbsp; <img src="./assets/icons/vitest.svg" width="36" height="36" alt="vitest" /> &nbsp; <img src="./assets/icons/playwright.svg" width="36" height="36" alt="playwright" /><br><sub>Git · Docker · Vitest · Playwright</sub> |
+| **Interface** | <img src="./assets/icons/react.svg?motion=3" width="36" height="36" alt="react" /> &nbsp; <img src="./assets/icons/nextjs.svg?motion=3" width="36" height="36" alt="nextjs" /> &nbsp; <img src="./assets/icons/typescript.svg?motion=3" width="36" height="36" alt="typescript" /> &nbsp; <img src="./assets/icons/tailwindcss.svg?motion=3" width="36" height="36" alt="tailwindcss" /><br><sub>React · Next.js · TypeScript · Tailwind CSS</sub> |
+| **Services** | <img src="./assets/icons/python.svg?motion=3" width="36" height="36" alt="python" /> &nbsp; <img src="./assets/icons/nodejs.svg?motion=3" width="36" height="36" alt="nodejs" /> &nbsp; <img src="./assets/icons/csharp.svg?motion=3" width="36" height="36" alt="csharp" /> &nbsp; <img src="./assets/icons/dotnetcore.svg?motion=3" width="36" height="36" alt="dotnetcore" /><br><sub>Python · Node.js · C# · .NET</sub> |
+| **Data** | <img src="./assets/icons/postgresql.svg?motion=3" width="36" height="36" alt="postgresql" /> &nbsp; <img src="./assets/icons/mongodb.svg?motion=3" width="36" height="36" alt="mongodb" /> &nbsp; <img src="./assets/icons/sqlite.svg?motion=3" width="36" height="36" alt="sqlite" /> &nbsp; <img src="./assets/icons/prisma.svg?motion=3" width="36" height="36" alt="prisma" /><br><sub>PostgreSQL · MongoDB · SQLite · Prisma</sub> |
+| **Build & verify** | <img src="./assets/icons/git.svg?motion=3" width="36" height="36" alt="git" /> &nbsp; <img src="./assets/icons/docker.svg?motion=3" width="36" height="36" alt="docker" /> &nbsp; <img src="./assets/icons/vitest.svg?motion=3" width="36" height="36" alt="vitest" /> &nbsp; <img src="./assets/icons/playwright.svg?motion=3" width="36" height="36" alt="playwright" /><br><sub>Git · Docker · Vitest · Playwright</sub> |
 
 <br>
 
 ## Selected work
 
-<img src="./assets/section-03.svg" width="100%" alt="03 — Selected work: product thinking meets implementation" />
+<img src="./assets/section-03.svg?motion=3" width="100%" alt="03 — Selected work: product thinking meets implementation" />
 
 ### QueueLess Pulse
 
-<a href="https://github.com/girinataraj/QueueLess-Pulse"><img src="./assets/queueless.svg" width="100%" alt="QueueLess Pulse — four roles working together in one queue system." /></a>
+<a href="https://github.com/girinataraj/QueueLess-Pulse"><img src="./assets/queueless.svg?motion=3" width="100%" alt="QueueLess Pulse — four roles working together in one queue system." /></a>
 
 **A multi-business virtual queue platform** connecting customers, staff, owners, and reception displays.
 
@@ -67,18 +57,18 @@ const giri = {
 **[Explore repository ↗](https://github.com/girinataraj/QueueLess-Pulse)** · [Architecture & verification ↗](https://github.com/girinataraj/QueueLess-Pulse/blob/main/docs/FRONTEND_VERIFICATION.md)
 
 <details>
-<summary><b>Open the actual owner dashboard ↗</b></summary>
+<summary><b>Play the four-interface tour ↗</b></summary>
 <br>
-<img src="https://raw.githubusercontent.com/girinataraj/QueueLess-Pulse/main/docs/screenshots/react-owner-1366.png" width="100%" alt="Actual QueueLess Pulse owner dashboard from the repository’s frontend verification." />
+<img src="./assets/queueless-interface-tour.gif" width="100%" alt="Looping carousel of actual published QueueLess customer, staff, owner and reception development screenshots." />
 
-<sub>Published development screenshot. The cover above is an original concept diagram.</sub>
+<sub>Animated carousel of published development screenshots. The cover above is an animated concept diagram.</sub>
 </details>
 
 <br>
 
 ### CloseFuture AI Assistant
 
-<a href="https://github.com/girinataraj/closefuture-agent"><img src="./assets/assistant.svg" width="100%" alt="CloseFuture AI Assistant case study — grounded retrieval connected to calendar and email actions through MCP." /></a>
+<a href="https://github.com/girinataraj/closefuture-agent"><img src="./assets/assistant.svg?motion=3" width="100%" alt="CloseFuture AI Assistant case study — grounded retrieval connected to calendar and email actions through MCP." /></a>
 
 **An AI assistant case study** combining grounded answers, intent routing, discovery-call scheduling, and lead summaries.
 
@@ -94,7 +84,7 @@ const giri = {
 
 ### Sacred Commerce
 
-<a href="https://github.com/girinataraj/sacred-commerce"><img src="./assets/commerce.svg" width="100%" alt="Sacred Commerce — original editorial storefront and product ownership case study." /></a>
+<a href="https://github.com/girinataraj/sacred-commerce"><img src="./assets/commerce.svg?motion=3" width="100%" alt="Sacred Commerce — original editorial storefront and product ownership case study." /></a>
 
 **An independent fictional storefront and product ownership case study**, with original editorial design and Light / Moonlight themes.
 
@@ -116,12 +106,14 @@ const giri = {
 <tr>
 <td width="50%" valign="top">
 <h3>⌘ Résumé RAG</h3>
+<img src="./assets/resume-rag.svg?motion=3" width="100%" alt="Animated concept flow: question, résumé retrieval, answer." />
 <p>A conversational interface over résumé information.</p>
 <p>React chat UI · Python retrieval pipeline · Chroma similarity search · LangChain orchestration.</p>
 <p><a href="https://github.com/girinataraj/Resume-RAG-Application"><b>Inspect the build ↗</b></a></p>
 </td>
 <td width="50%" valign="top">
 <h3>✦ Crown Dental Clinic</h3>
+<img src="./assets/clinic.svg?motion=3" width="100%" alt="Animated clinic website concept flow: discovery, treatment information, contact." />
 <p>A React and TypeScript clinic website interface.</p>
 <p>Treatment routes · Doctor and clinic sections · Gallery · Consultation and contact flows.</p>
 <p><a href="https://github.com/girinataraj/Crown-Dental-Clinic"><b>Inspect the build ↗</b></a></p>
@@ -131,7 +123,7 @@ const giri = {
 
 <br>
 
-<img src="./assets/section-04.svg" width="100%" alt="04 — The journey" />
+<img src="./assets/section-04.svg?motion=3" width="100%" alt="04 — The journey" />
 
 | Chapter | Focus |
 | :--- | :--- |
@@ -142,25 +134,25 @@ const giri = {
 
 <br>
 
-<img src="./assets/section-05.svg" width="100%" alt="05 — Live signal: real activity, real source data" />
+<img src="./assets/section-05.svg?motion=3" width="100%" alt="05 — Live signal: real activity, real source data" />
 
-<a href="https://github.com/girinataraj?tab=repositories"><img src="./assets/github-dashboard.svg" width="100%" alt="Engineering telemetry: original public project repositories, active days, and repositories by primary language. Daily snapshot from GitHub." /></a>
+<a href="https://github.com/girinataraj?tab=repositories"><img src="./assets/github-dashboard.svg?motion=3" width="100%" alt="Engineering telemetry: original public project repositories, active days, and repositories by primary language. Daily snapshot from GitHub." /></a>
 
-<a href="https://github.com/girinataraj"><img src="./assets/contributions.svg" width="100%" alt="The commit trail — actual GitHub profile contribution intensity across the past 365 days." /></a>
+<a href="https://github.com/girinataraj"><img src="./assets/contributions.svg?motion=3" width="100%" alt="The commit trail — actual GitHub profile contribution intensity across the past 365 days." /></a>
 
 <details>
 <summary><b>Latest public code pushes ↗</b></summary>
 <br>
-<a href="https://github.com/girinataraj?tab=repositories"><img src="./assets/activity.svg" width="100%" alt="Three most recently pushed original public project repositories, with UTC push dates." /></a>
+<a href="https://github.com/girinataraj?tab=repositories"><img src="./assets/activity.svg?motion=3" width="100%" alt="Three most recently pushed original public project repositories, with UTC push dates." /></a>
 </details>
 
 <sub>Generated daily from public GitHub data. Project counts exclude forks, archives, and this profile repository. Language bars count repositories, not proficiency. Active days reflect the public profile calendar, which can include anonymized private activity if enabled. Dates describe pushes, not releases. Scheduled refresh begins after merge and may be delayed by GitHub.</sub>
 
 <br>
 
-<img src="./assets/section-06.svg" width="100%" alt="06 — Open a conversation" />
+<img src="./assets/section-06.svg?motion=3" width="100%" alt="06 — Open a conversation" />
 
-<a href="mailto:girinataraj765@gmail.com"><img src="./assets/connect.svg" width="100%" alt="Have a problem worth solving? Let’s turn it into something people can use." /></a>
+<a href="mailto:girinataraj765@gmail.com"><img src="./assets/connect.svg?motion=3" width="100%" alt="Have a problem worth solving? Let’s turn it into something people can use." /></a>
 
 <p align="center">
   <a href="mailto:girinataraj765@gmail.com"><b>GIRINATARAJ765@GMAIL.COM ↗</b></a>
