@@ -6,7 +6,7 @@
 <p align="center">
   <a href="#selected-work"><img src="./assets/nav-work.svg?motion=3" width="150" height="28" alt="Explore builds" /></a>&nbsp;
   <a href="https://github.com/girinataraj"><img src="./assets/nav-github.svg?motion=3" width="150" height="28" alt="GitHub" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/giri765/"><img src="./assets/nav-linkedin.svg?motion=3" width="150" height="28" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/girins/"><img src="./assets/nav-linkedin.svg?motion=3" width="150" height="28" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:girinataraj765@gmail.com"><img src="./assets/nav-email.svg?motion=3" width="150" height="28" alt="Email Giri" /></a>
 </p>
 
@@ -157,7 +157,7 @@ My current work spans **business queue systems**, **RAG and MCP-based assistants
 <p align="center">
   <a href="mailto:girinataraj765@gmail.com"><b>GIRINATARAJ765@GMAIL.COM ↗</b></a>
   &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/giri765/"><b>CONNECT ON LINKEDIN ↗</b></a>
+  <a href="https://www.linkedin.com/in/girins/"><b>CONNECT ON LINKEDIN ↗</b></a>
 </p>
 
 <p align="center"><sub>Erode, India · interfaces / systems / applied AI</sub></p>

@@ -26,7 +26,7 @@ Pinning: profile → Customize your pins → select and reorder → Save pins. G
 
 ## Links
 
-Both www.girinataraj.tech and girinataraj.tech failed DNS checks. The main link leads to Selected work. Restore the portfolio link when healthy. LinkedIn is preserved from the original README; automated access returns HTTP 999, so its destination content could not be independently checked.
+Both www.girinataraj.tech and girinataraj.tech failed DNS checks. The main link leads to Selected work. Restore the portfolio link when healthy. LinkedIn was aligned with the account’s public GitHub social link and résumé: /in/girins/. LinkedIn itself blocks automated access with HTTP 999, so its page content was not independently inspected.
 
 ## Live visuals
 
