@@ -1,47 +1,46 @@
-# Profile finishing kit
+# Cinematic GitHub profile — finishing kit
 
-The README and its original SVG artwork are ready in this repository. The proposed branch does not change the live profile until merged into main. LinkedIn was preserved from the original README. Both www.girinataraj.tech and girinataraj.tech failed DNS resolution during verification, so the main link leads to Selected builds instead. Restore the portfolio link after the domain works. LinkedIn returned its usual automated-access block (HTTP 999), so its page content was not independently verified.
+This branch replaces the restrained first draft with an illustrated developer identity, technical dossier, technology logos, five projects, a journey section, real GitHub telemetry and a contribution calendar. The live profile changes when merged into main.
 
-## Suggested account bio
+## Content evidence
 
-Full-stack developer building thoughtful interfaces, reliable workflows, and applied AI. React · TypeScript · Python · PostgreSQL.
+Degree, institution, location, internship and early project details come from the public résumé at `girinataraj/Resume-RAG-Application/python-server/app/data/resume.txt`. These are self-reported details. The other portfolio's sample education/employment entries were not used. No phone number, GPA, client success percentage or unverifiable business impact is added.
 
-This is proposed copy, not a claim that the account bio has been changed.
+Flagship summaries were checked against READMEs and selected code. Résumé RAG's chain/retriever implementation and Crown Dental's React App were inspected. The summaries do not assert hosted availability. Silex is a fork and is not presented as an original build.
 
-## Suggested pins, in order
+## Suggested account bio and pins
 
-1. QueueLess-Pulse — strongest connected product workflow and backend story.
-2. closefuture-agent — AI retrieval, orchestration and MCP case study.
-3. sacred-commerce — editorial UI and product ownership case study.
+Bio: Full-stack developer exploring applied AI. React, TypeScript, Python & C#. Building useful interfaces and the systems behind them. Erode, India.
 
-Three intentional pins are enough for this first version. Add further projects when they have a clear README, visuals and an understandable entry point. Silex is a fork of silexlabs/Silex; it is not presented as an original build. Resume-RAG-Application and ERP lacked a root README.md during this audit, so they are not featured yet. No repositories were deleted, archived or renamed.
+Suggested pin order:
 
-To apply pins: profile → Customize your pins → select these repositories → reorder → Save pins. GitHub supports up to six pinned repositories and gists combined. Source: https://docs.github.com/en/account-and-profile/how-tos/profile-customization/pinning-items-to-your-profile
+1. QueueLess-Pulse
+2. closefuture-agent
+3. sacred-commerce
+4. Resume-RAG-Application
+5. Crown-Dental-Clinic
 
-## Suggested repository descriptions and topics
+Bio, native pins and other repositories' descriptions are not edited by this branch. Add clear root READMEs to Résumé RAG and Crown Dental before treating all five pins as a finished storefront.
 
-| Repository | Description | Topics |
-| --- | --- | --- |
-| QueueLess-Pulse | Virtual queue platform with customer, staff, owner and reception workflows. React, Flask and PostgreSQL. | queue-management, react, typescript, flask, postgresql |
-| closefuture-agent | AI assistant case study with grounded retrieval, intent routing, calendar scheduling and MCP tools. | rag, ai-agents, mcp, typescript, pgvector |
-| sacred-commerce | Independent fictional commerce demo and product ownership case study. Editorial design, accessible shopping and simulated checkout. | nextjs, typescript, ecommerce-demo, accessibility, product-management |
+Pinning: profile → Customize your pins → select and reorder → Save pins. GitHub supports up to six repositories/gists. [Official instructions](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/pinning-items-to-your-profile).
 
-These are prepared suggestions. Account bio, native pins and other repositories' metadata have not been edited by this branch.
+## Links
 
-## Activity automation
+Both www.girinataraj.tech and girinataraj.tech failed DNS checks. The main link leads to Selected work. Restore the portfolio link when healthy. LinkedIn is preserved from the original README; automated access returns HTTP 999, so its destination content could not be independently checked.
 
-- `.github/workflows/profile-activity.yml` runs daily at 03:23 UTC / 08:53 Asia/Calcutta and can be run manually.
-- Scheduled workflows begin after the workflow is on the default branch. The initial activity snapshot is included so the image works immediately.
-- Python uses the GitHub public-user repositories endpoint, filters out forks/private/archived repos and this profile, and shows the three latest `pushed_at` dates.
-- Only `assets/activity.svg` is generated. Failed fetches leave the previous card intact and fail the workflow visibly.
-- The included workflow uses the automatic repository token; no personal token or paid service is required. GitHub repository rules may prevent bot pushes. If that happens, keep the last good card and adjust repository rules deliberately.
-- The artwork is local, script-free SVG. Hero motion finishes after eight seconds and respects reduced-motion settings. The static composition works without animation.
-- The layout uses standard GitHub Markdown and supported HTML. Local HTML previews approximate GitHub; the branch README is the canonical render to inspect before merging.
+## Live visuals
 
-## Updating the profile
+- Refresh: daily at 03:23 UTC / 08:53 Asia/Calcutta, or manually. Schedules start after merge to the default branch and may be delayed by GitHub.
+- `activity.svg`: three latest original public project pushes, excluding forks, archives and the profile repository.
+- `github-dashboard.svg`: original public project repositories, active days in the past 365 days, and repositories grouped by GitHub's primary-language metadata. Bars do not measure proficiency or source-byte percentages.
+- `contributions.svg`: actual public profile calendar intensity. The public calendar can include anonymized private activity if the account owner enables it. No private repository details are requested.
+- Calendar HTML is an undocumented GitHub presentation surface. Missing/incomplete/invalid markup fails the job and preserves the previous visuals. All fetches and rendering finish before files are replaced.
+- The refresh workflow stages only these three generated SVGs. Repository rules may block bot pushes; no rule is bypassed.
+- Uses Python's standard library and the automatic Actions token. No personal token or paid service is required. Calendar requests send no authorization or cookies.
+- Pull-request checks run nine behavior tests and parse all SVG assets. Tests cover filtering, escaping, calendar validation, a contiguous complete 365-day window and preservation on source failure.
 
-Edit `README.md` for text and links. Edit `assets/*.svg` for visuals. Keep project claims aligned with the repositories. The feature cards are original diagrams, not screenshots; the expandable QueueLess preview uses an actual screenshot already published in that project.
+## Visual maintenance
 
-## Verification
+The hero is an original fictional illustrated developer mascot, not an identity-matched portrait. Provenance and the generation prompt are in `ASSETS.md`. The signal ribbon runs for eighteen seconds and respects reduced-motion preferences. Technology logos are stored locally with the Devicon license.
 
-Run `python -m unittest discover -s tests -v` to check filtering, XML escaping, empty results, and preservation of the last good card on a fetch error. Run `python scripts/update_activity.py` for a fresh public snapshot. Neither command publishes posts or changes other repositories.
+Edit `README.md` for content. Custom graphics are SVG except the hero PNG. The local HTML preview approximates GitHub; inspect the branch README before merge. No arbitrary scripts/styles are required inside the README, and no repositories are renamed, archived or deleted.

@@ -1,101 +1,171 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Giri Nataraj. From interface to infrastructure. Full-stack development, applied AI, product thinking." />
+  <img src="./assets/hero-cinematic.png" width="100%" alt="Giri Nataraj — full-stack development and applied AI. Cinematic illustrated developer mascot with a holographic engineering workspace." />
+  <img src="./assets/boot-sequence.svg" width="100%" alt="From interface to service to data to intelligence." />
 </p>
 
 <p align="center">
-  <a href="#selected-builds"><b>EXPLORE THE BUILDS ↓</b></a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/giri765/"><b>LINKEDIN ↗</b></a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="mailto:girinataraj765@gmail.com"><b>LET’S TALK ↗</b></a>
+  <a href="#selected-work"><img src="./assets/nav-work.svg" width="150" height="28" alt="Explore builds" /></a>&nbsp;
+  <a href="https://github.com/girinataraj"><img src="./assets/nav-github.svg" width="150" height="28" alt="GitHub" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/giri765/"><img src="./assets/nav-linkedin.svg" width="150" height="28" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:girinataraj765@gmail.com"><img src="./assets/nav-email.svg" width="150" height="28" alt="Email Giri" /></a>
 </p>
 
-<br>
-
-### Good interfaces invite people in. Good systems keep things working.
-
-I’m **Giri Nataraj**. I build across the stack: React and TypeScript interfaces, Python and Node.js services, and AI workflows that connect information to action.
-
-My work explores the parts behind the screen: queue state, access boundaries, retrieval, scheduling, and the decisions that turn an idea into a usable product.
+<h3 align="center">I build the interface. Then I build what it runs on.</h3>
+<p align="center">React & TypeScript interfaces · Python & Node.js services · AI that connects information to action</p>
 
 <br>
 
-## Selected builds
+<img src="./assets/section-01.svg" width="100%" alt="01 — The developer" />
 
-### 01 / QueueLess Pulse
+I’m **Giri Nataraj**, an Information Technology student and developer from **Erode, India**. I’m interested in the whole path from a useful interface to the services, data, and decisions behind it.
 
-<a href="https://github.com/girinataraj/QueueLess-Pulse"><img src="./assets/queueless.svg" width="100%" alt="QueueLess Pulse. One queue system, four connected experiences: customer, staff, owner, reception." /></a>
+My current work spans **business queue systems**, **RAG and MCP-based assistants**, and **thoughtfully designed web products**.
 
-**A virtual queue platform for businesses with people waiting.** QR entry, ticket tracking, staff controls, owner management, and reception displays share one queue model.
+```typescript
+const giri = {
+  location: "Erode, India",
+  education: "B.Tech · Information Technology · 2023–2027",
+  institution: "Nandha Engineering College",
+  focus: ["Full-stack products", "Backend systems", "Applied AI"],
+  languages: ["TypeScript", "JavaScript", "Python", "C#"],
+  building: ["QueueLess Pulse", "AI assistants", "Commerce experiences"],
+  approach: "Understand the problem. Follow the data. Build the experience."
+};
+```
 
-The engineering: business-scoped permissions, PostgreSQL service-row locking, and an event history behind each ticket transition.
+<img src="./assets/capabilities.svg" width="100%" alt="Four areas: interfaces, backend systems, applied AI, and product thinking." />
+
+<br>
+
+<img src="./assets/section-02.svg" width="100%" alt="02 — Tech arsenal" />
+
+| Layer | Tools I work with | Where they show up |
+| :--- | :--- | :--- |
+| **Interface** | <img src="./assets/icons/react.svg" width="36" height="36" alt="react" /> &nbsp; <img src="./assets/icons/nextjs.svg" width="36" height="36" alt="nextjs" /> &nbsp; <img src="./assets/icons/typescript.svg" width="36" height="36" alt="typescript" /> &nbsp; <img src="./assets/icons/tailwindcss.svg" width="36" height="36" alt="tailwindcss" /><br><sub>React · Next.js · TypeScript · Tailwind CSS</sub> | Interactive products, dashboards, responsive UI |
+| **Services** | <img src="./assets/icons/python.svg" width="36" height="36" alt="python" /> &nbsp; <img src="./assets/icons/nodejs.svg" width="36" height="36" alt="nodejs" /> &nbsp; <img src="./assets/icons/csharp.svg" width="36" height="36" alt="csharp" /> &nbsp; <img src="./assets/icons/dotnetcore.svg" width="36" height="36" alt="dotnetcore" /><br><sub>Python · Node.js · C# · .NET</sub> | APIs, application logic, integrations |
+| **Data** | <img src="./assets/icons/postgresql.svg" width="36" height="36" alt="postgresql" /> &nbsp; <img src="./assets/icons/mongodb.svg" width="36" height="36" alt="mongodb" /> &nbsp; <img src="./assets/icons/sqlite.svg" width="36" height="36" alt="sqlite" /> &nbsp; <img src="./assets/icons/prisma.svg" width="36" height="36" alt="prisma" /><br><sub>PostgreSQL · MongoDB · SQLite · Prisma</sub> | Persistence, access boundaries, data models |
+| **Build & verify** | <img src="./assets/icons/git.svg" width="36" height="36" alt="git" /> &nbsp; <img src="./assets/icons/docker.svg" width="36" height="36" alt="docker" /> &nbsp; <img src="./assets/icons/vitest.svg" width="36" height="36" alt="vitest" /> &nbsp; <img src="./assets/icons/playwright.svg" width="36" height="36" alt="playwright" /><br><sub>Git · Docker · Vitest · Playwright</sub> | Version control, repeatable setup, automated checks |
+
+<br>
+
+## Selected work
+
+<img src="./assets/section-03.svg" width="100%" alt="03 — Selected work: product thinking meets implementation" />
+
+### QueueLess Pulse
+
+<a href="https://github.com/girinataraj/QueueLess-Pulse"><img src="./assets/queueless.svg" width="100%" alt="QueueLess Pulse — four roles working together in one queue system." /></a>
+
+**A multi-business virtual queue platform** connecting customers, staff, owners, and reception displays.
+
+| Product experience | Engineering underneath |
+| :--- | :--- |
+| QR entry and ticket tracking<br>Staff call / complete / skip controls<br>Owner business and team management<br>Public reception displays | Business-scoped memberships and permissions<br>PostgreSQL service-row locking<br>Ticket transitions with event history<br>React frontend over the Flask API |
 
 `React` `TypeScript` `Flask` `PostgreSQL`
 
-[Explore the code ↗](https://github.com/girinataraj/QueueLess-Pulse) · [Frontend architecture & verification ↗](https://github.com/girinataraj/QueueLess-Pulse/blob/main/docs/FRONTEND_VERIFICATION.md)
+**[Explore repository ↗](https://github.com/girinataraj/QueueLess-Pulse)** · [Architecture & verification ↗](https://github.com/girinataraj/QueueLess-Pulse/blob/main/docs/FRONTEND_VERIFICATION.md)
 
 <details>
-<summary>See an actual interface</summary>
+<summary><b>Open the actual owner dashboard ↗</b></summary>
 <br>
-<img src="https://raw.githubusercontent.com/girinataraj/QueueLess-Pulse/main/docs/screenshots/react-owner-1366.png" width="100%" alt="QueueLess Pulse owner interface, captured in the project’s frontend verification." />
+<img src="https://raw.githubusercontent.com/girinataraj/QueueLess-Pulse/main/docs/screenshots/react-owner-1366.png" width="100%" alt="Actual QueueLess Pulse owner dashboard from the repository’s frontend verification." />
 
-*Project screenshot from the repository; this is a development preview.*
-
+<sub>Published development screenshot. The cover above is an original concept diagram.</sub>
 </details>
 
 <br>
 
-### 02 / CloseFuture AI Assistant
+### CloseFuture AI Assistant
 
-<a href="https://github.com/girinataraj/closefuture-agent"><img src="./assets/assistant.svg" width="100%" alt="CloseFuture AI Assistant case study. Retrieve, reason, act. Grounded answers connect to calendar and email tools through MCP." /></a>
+<a href="https://github.com/girinataraj/closefuture-agent"><img src="./assets/assistant.svg" width="100%" alt="CloseFuture AI Assistant case study — grounded retrieval connected to calendar and email actions through MCP." /></a>
 
-**An AI assistant case study that connects answers to actions.** Grounded retrieval, intent routing, calendar scheduling, and lead summaries meet in one conversational interface.
+**An AI assistant case study** combining grounded answers, intent routing, discovery-call scheduling, and lead summaries.
 
-The engineering: source citations, separate agent responsibilities, Calendar and Email MCP servers, and session state for duplicate-send protection.
+| Conversational workflow | Engineering underneath |
+| :--- | :--- |
+| Retrieve source-backed studio information<br>Route search and booking requests<br>Find calendar slots and arrange calls<br>Prepare lead summaries | Vector retrieval with source citations<br>Separate orchestration and agent responsibilities<br>Calendar and Email MCP servers<br>Session state and duplicate-send protection |
 
 `TypeScript` `React` `Node.js` `pgvector` `MCP`
 
-[Explore the code ↗](https://github.com/girinataraj/closefuture-agent) · [Architecture & walkthrough ↗](https://github.com/girinataraj/closefuture-agent#1-system-architecture)
+**[Explore repository ↗](https://github.com/girinataraj/closefuture-agent)** · [System architecture ↗](https://github.com/girinataraj/closefuture-agent#1-system-architecture)
 
 <br>
 
-### 03 / Sacred Commerce
+### Sacred Commerce
 
-<a href="https://github.com/girinataraj/sacred-commerce"><img src="./assets/commerce.svg" width="100%" alt="Sacred Commerce. A quieter kind of commerce. An independent fictional storefront and product ownership case study." /></a>
+<a href="https://github.com/girinataraj/sacred-commerce"><img src="./assets/commerce.svg" width="100%" alt="Sacred Commerce — original editorial storefront and product ownership case study." /></a>
 
-**An independent, fictional storefront and product ownership case study.** Original editorial design, product discovery, a recoverable guest cart, and a simulated checkout, with Light and Moonlight themes.
+**An independent fictional storefront and product ownership case study**, with original editorial design and Light / Moonlight themes.
 
-The product work: explicit scope, documented trade-offs, accessibility, and measurable hypotheses alongside the implementation.
+| Shopping experience | Product and engineering decisions |
+| :--- | :--- |
+| Browse, search, filter, and sort products<br>Guest cart with local recovery<br>Validated simulated checkout<br>Responsive Light / Moonlight interface | Explicit demo scope and system boundaries<br>Documented architecture and trade-offs<br>Keyboard access and visible focus<br>Unit and browser verification suites |
 
 `Next.js` `TypeScript` `Tailwind CSS` `Prisma` `Playwright`
 
-[Explore the code ↗](https://github.com/girinataraj/sacred-commerce) · [Product decisions ↗](https://github.com/girinataraj/sacred-commerce/blob/main/docs/product-owner/case-study.md)
+**[Explore repository ↗](https://github.com/girinataraj/sacred-commerce)** · [Product case study ↗](https://github.com/girinataraj/sacred-commerce/blob/main/docs/product-owner/case-study.md)
 
 <sub>Independent fictional demo. No affiliation with Isha Foundation or Isha Life. Checkout is simulated.</sub>
 
 <br>
 
-## My working set
+### More from the workshop
 
-| Interface | Services & data | Applied AI | Quality |
-| :--- | :--- | :--- | :--- |
-| React · Next.js | Python · Flask | Retrieval-augmented generation | Vitest · Playwright |
-| TypeScript · Tailwind CSS | Node.js · PostgreSQL | Vector search · MCP | Access boundaries · clear contracts |
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>⌘ Résumé RAG</h3>
+<p>A conversational interface over résumé information.</p>
+<p>React chat UI · Python retrieval pipeline · Chroma similarity search · LangChain orchestration.</p>
+<p><a href="https://github.com/girinataraj/Resume-RAG-Application"><b>Inspect the build ↗</b></a></p>
+</td>
+<td width="50%" valign="top">
+<h3>✦ Crown Dental Clinic</h3>
+<p>A React and TypeScript clinic website interface.</p>
+<p>Treatment routes · Doctor and clinic sections · Gallery · Consultation and contact flows.</p>
+<p><a href="https://github.com/girinataraj/Crown-Dental-Clinic"><b>Inspect the build ↗</b></a></p>
+</td>
+</tr>
+</table>
 
 <br>
 
-## In the workshop
+<img src="./assets/section-04.svg" width="100%" alt="04 — The journey" />
 
-<a href="https://github.com/girinataraj?tab=repositories"><img src="./assets/activity.svg" width="100%" alt="Latest public code pushes. Open my repositories to explore current work." /></a>
-
-<sub>Generated daily from public repository metadata. Dates describe code pushes, not releases; forks, archived repositories, and this profile repository are excluded. GitHub may delay scheduled updates.</sub>
+| Chapter | Focus |
+| :--- | :--- |
+| **2023–2027 · Information Technology** | B.Tech at Nandha Engineering College, Erode. |
+| **2024–2025 · Application projects** | Vehicle and student management interfaces; React, TypeScript, and C# backend work. |
+| **Jun–Jul 2025 · AST Technologies** | Internship in Google Workspace extension testing, web workflows, and usability evaluation. |
+| **Current build direction** | Full-stack products, retrieval-augmented generation, and tools connected through MCP. |
 
 <br>
 
----
+<img src="./assets/section-05.svg" width="100%" alt="05 — Live signal: real activity, real source data" />
 
-### Have something worth building?
+<a href="https://github.com/girinataraj?tab=repositories"><img src="./assets/github-dashboard.svg" width="100%" alt="Engineering telemetry: original public project repositories, active days, and repositories by primary language. Daily snapshot from GitHub." /></a>
 
-[Show me the problem. Let’s talk. ↗](mailto:girinataraj765@gmail.com)
+<a href="https://github.com/girinataraj"><img src="./assets/contributions.svg" width="100%" alt="The commit trail — actual GitHub profile contribution intensity across the past 365 days." /></a>
 
-<sub>Giri Nataraj · interfaces / systems / applied AI</sub>
+<details>
+<summary><b>Latest public code pushes ↗</b></summary>
+<br>
+<a href="https://github.com/girinataraj?tab=repositories"><img src="./assets/activity.svg" width="100%" alt="Three most recently pushed original public project repositories, with UTC push dates." /></a>
+</details>
+
+<sub>Generated daily from public GitHub data. Project counts exclude forks, archives, and this profile repository. Language bars count repositories, not proficiency. Active days reflect the public profile calendar, which can include anonymized private activity if enabled. Dates describe pushes, not releases. Scheduled refresh begins after merge and may be delayed by GitHub.</sub>
+
+<br>
+
+<img src="./assets/section-06.svg" width="100%" alt="06 — Open a conversation" />
+
+<a href="mailto:girinataraj765@gmail.com"><img src="./assets/connect.svg" width="100%" alt="Have a problem worth solving? Let’s turn it into something people can use." /></a>
+
+<p align="center">
+  <a href="mailto:girinataraj765@gmail.com"><b>GIRINATARAJ765@GMAIL.COM ↗</b></a>
+  &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/giri765/"><b>CONNECT ON LINKEDIN ↗</b></a>
+</p>
+
+<p align="center"><sub>Erode, India · interfaces / systems / applied AI</sub></p>

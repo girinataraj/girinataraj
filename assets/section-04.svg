@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="94" viewBox="0 0 1200 94" role="img" aria-labelledby="title desc"><title id="title">THE JOURNEY</title><desc id="desc">Original profile artwork for Giri Nataraj.</desc><defs><linearGradient id="edge"><stop stop-color="#50e5ed"/><stop offset=".55" stop-color="#4c8bef"/><stop offset="1" stop-color="#a89ddd"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#5dd8fa" stroke-opacity=".045"/></pattern><clipPath id="frame"><rect width="1200" height="94" rx="18"/></clipPath></defs><g clip-path="url(#frame)" font-family="Arial,Helvetica,sans-serif"><path d="M0 43H1200" stroke="#24394d"/>
+<rect x="0" y="16" width="53" height="53" rx="12" fill="#102536" stroke="#39738a"/>
+<text x="26" y="50" font-size="22" text-anchor="middle" fill="#71edf1" font-family="Consolas,monospace">04</text>
+<rect x="77" y="22" width="211" height="42" rx="5" fill="#0d1724"/>
+<text x="91" y="50" fill="#d4f4ff" font-size="26" font-weight="700" letter-spacing="3">THE JOURNEY</text>
+<text x="1198" y="78" text-anchor="end" fill="#87a4bc" font-size="16" font-family="Consolas,monospace">learning / building / connecting</text>
+<circle cx="1135" cy="43" r="4" fill="#67e8ee"/><path d="M1155 38L1160 43L1155 48L1150 43Z" fill="none" stroke="#b4a4f1"/></g></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc"><title id="title">Have a problem worth solving? Let us build it.</title><desc id="desc">Original profile artwork for Giri Nataraj.</desc><defs><linearGradient id="edge"><stop stop-color="#50e5ed"/><stop offset=".55" stop-color="#4c8bef"/><stop offset="1" stop-color="#a89ddd"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#5dd8fa" stroke-opacity=".045"/></pattern><clipPath id="frame"><rect width="1200" height="220" rx="18"/></clipPath></defs><g clip-path="url(#frame)" font-family="Arial,Helvetica,sans-serif">
+<rect width="1200" height="220" rx="18" fill="#0c1a2b" stroke="#35516b"/>
+<rect width="1200" height="220" fill="url(#grid)"/>
+<path d="M38 40H48M43 35V45M1152 180H1162M1157 175V185" stroke="#63e7ed"/>
+<text x="600" y="65" text-anchor="middle" fill="#7fe8ed" font-family="Consolas,monospace" font-size="18" letter-spacing="4">NEXT UP / YOUR IDEA</text>
+<text x="600" y="128" text-anchor="middle" fill="#e7f4ff" font-weight="700" font-size="43">Have a problem worth solving?</text>
+<text x="600" y="178" text-anchor="middle" fill="#9ab8d4" font-size="25">Let’s turn it into something people can use.</text></g></svg>

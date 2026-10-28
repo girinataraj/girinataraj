@@ -1,0 +1,15 @@
+name: Check profile assets
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Check profile data behavior
+        run: python3 -m unittest discover -s tests -v
+      - name: Parse SVG assets
+        run: python3 -c "from pathlib import Path; from xml.etree import ElementTree as E; files=list(Path('assets').rglob('*.svg')); [E.parse(f) for f in files]; print(f'{len(files)} valid SVG assets')"
