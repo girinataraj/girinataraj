@@ -11,7 +11,7 @@
 <rect width="1200" height="360" rx="20" fill="#0b1624" stroke="#25415a"/>
 <g font-family="Consolas, Liberation Mono, monospace">
 <text x="36" y="46" fill="#67e8ee" font-size="17" letter-spacing="3">ENGINEERING TELEMETRY</text>
-<text x="1160" y="46" fill="#99adc3" font-size="16" text-anchor="end">CHECKED / 2026-10-30 UTC</text>
+<text x="1160" y="46" fill="#99adc3" font-size="16" text-anchor="end">CHECKED / 2026-10-31 UTC</text>
 <rect x="35" y="80" width="275" height="211" rx="14" fill="#102235" stroke="#29465c"/>
 <rect x="329" y="80" width="275" height="211" rx="14" fill="#102235" stroke="#29465c"/>
 <text x="59" y="170" fill="#e6f7ff" font-size="70" font-weight="700">23</text>
